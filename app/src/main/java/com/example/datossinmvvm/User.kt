@@ -1,5 +1,9 @@
 package com.example.datossinmvvm
 
+import androidx.room.Entity
+import androidx.room.PrimaryKey
+import androidx.room.ColumnInfo
+
 @Entity
 data class User(
     @PrimaryKey(autoGenerate = true) val uid: Int = 0,
